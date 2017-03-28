@@ -13,3 +13,8 @@ Homework for the day 1 :
 
 
  practice all the classes given with bootstrap (classes that needs javascript can be ommitted)
+
+
+
+
+make surre you know the usage of basic html elements like div, span, h1, etc.
