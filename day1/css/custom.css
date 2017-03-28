@@ -1,0 +1,81 @@
+
+.box {
+width:28%;
+float:left;
+margin:1%;
+padding:0.61%;
+background-color:red;
+height:300px;
+}
+.inner-box {
+height:inherit;
+background-color:blue;
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    margin:auto;
+    display:block;
+  }
+    /* For mobile phones: */
+            .box {
+              margin:auto;
+              display:block;
+              width:80%;
+              margin:0;
+              clear:both;
+            }
+}
+@media only screen and  (min-width: 768px) and (max-width:1024px) {
+
+  .wrapper {
+    margin:auto;
+    display:block;
+  }
+    /* For mobile phones: */
+            .box {
+              margin:auto;
+              display:block;
+              width:40%;
+            }
+        .inner-box {
+          background-color: violet;
+        }
+}
+
+
+
+small {
+color:blue ;
+/*font-size: 400% !important;*/
+
+
+
+}
+
+small span {
+  color:red ;
+}
+
+.content_wrapper {
+      height:400px;
+    background-color:#efefef;
+  padding:4%;
+}
+
+
+.sample-content {
+    display:block;
+    margin:block;
+    margin-top:50%;
+
+}
+
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+
+
+}
