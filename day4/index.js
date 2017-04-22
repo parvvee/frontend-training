@@ -1,7 +1,18 @@
-  var a =  document.getElementById("dummy_id");
+  // var a =  document.getElementById("dummy_id");
 
 
-  
+  $( "#dummy_id" ).hover(
+    function() {
+    //  console.log('mouse entered');
+        $.ajax(
+            'www.example.com', function() {
+            }
+        );
+    }, function() {
+        console.log('mouse left');
+    }
+  );
+
 //
 //   a.addEventListener("mouseenter", function( event ){
 //

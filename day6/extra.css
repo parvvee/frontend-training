@@ -1,0 +1,33 @@
+.section .item {
+      background-color:gray;
+      min-height:400px;
+      color:blue;
+margin-top: 50px;
+
+}
+
+
+.item1 {
+
+background-color:red ;
+
+
+}
+.item1 {
+
+  background-color:blue;
+
+}
+
+
+.navbar-default .navbar-nav>.active>a:hover {
+  background: blue !important;
+  color:#fff !important;
+}
+
+
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
